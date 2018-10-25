@@ -1,10 +1,10 @@
-// Better font rendering
+/* Better font rendering */
 p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// UL reset
+/* UL reset */
 ul {
   list-style-type: none;
   margin: 0px;
@@ -13,14 +13,14 @@ ul {
 
 /* LAYOUT */
 
-// Layout container
+/* Layout container */
 .layout:after {
   clear: both;
   content: "";
   display: table;
 }
 
-// Layout columns
+/* Layout columns */
 .layout-4c {
   float: left;
   width: 24.25%;
@@ -36,41 +36,41 @@ ul {
   width: 50%;
 }
 
-// Dynamic columns
-// one column
+/* Dynamic columns */
+/* one column */
 .layout-dc:first-child:nth-last-child(1) {
   float: left;
   width: 100%;
 }
 
-// two columns
+/* two columns */
 .layout-dc:first-child:nth-last-child(2),
 .layout-dc:first-child:nth-last-child(2) ~ .layout-dc {
   float: left;
   width: 50%;
 }
 
-// three columns
+/* three columns */
 .layout-dc:first-child:nth-last-child(3),
 .layout-dc:first-child:nth-last-child(3) ~ .layout-dc {
   float: left;
   width: 33.3333%;
 }
 
-// four columns
+/* four columns */
 .layout-dc:first-child:nth-last-child(4),
 .layout-dc:first-child:nth-last-child(4) ~ .layout-dc {
   float: left;
   width: 25%;
 }
 
-// Link reset
+/* Link reset */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-// Font face
+/* Font face */
 @font-face {
   font-family: 'MyWebFont';
   src: url('webfont.eot'); /* IE9 Compat Modes */
