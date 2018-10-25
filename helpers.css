@@ -80,3 +80,8 @@ a {
        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+
+/* Icon via data-icon */
+.icon:before {
+  content: attr(data-icon);
+}
