@@ -85,3 +85,17 @@ a {
 .icon:before {
   content: attr(data-icon);
 }
+
+/* Delay style */
+div{
+    -webkit-transition: 0s background-color;
+    -o-transition: 0s background-color;
+    transition: 0s background-color;
+}
+
+div:hover{
+    background-color:red;    
+    -webkit-transition-delay:1s;    
+         -o-transition-delay:1s;    
+            transition-delay:1s;
+}
