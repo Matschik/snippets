@@ -3,7 +3,7 @@
 ## Get some files from a stash
 
 ```
-# Copy all modifications from stash to WIP
+# Copy all modifications from stash to WIP without removing the stash
 $ git stash apply
 
 # Remove added files
