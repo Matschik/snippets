@@ -9,7 +9,7 @@ $ git stash apply
 # Remove added files
 $ git rm -f newFileFromStash.md
 
-# Remove modified files
+# Remove modifications from modified files
 $ git checkout fileModified.md
 
 # Now you can check your files in WIP
