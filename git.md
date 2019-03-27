@@ -35,3 +35,20 @@ To clean up commits (squash, edit commit,  remove commit), use the start point (
 ```sh
 $ git rebase -i 9a7f06b
 ```
+
+## Add file modifications to last commit
+```sh
+$ git add my-forgotten-file.md
+$ git commit --amend
+```
+
+## Split last commit into many commits
+```sh
+$ git reset HEAD~
+
+$ git add first-commit.md
+$ git commit -m "First commit"
+
+$ git add second-commit.md
+$ git commit -m "Second commit"
+```
