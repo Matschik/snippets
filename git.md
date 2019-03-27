@@ -15,3 +15,17 @@ $ git checkout fileModified.md
 # Now you can check your files in WIP
 $ git status
 ```
+
+## Useful aliases
+
+```sh
+$ vi ~/.gitconfig
+```
+
+```
+# .gitconfig
+
+[alias]
+  # pretty logs
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+```
