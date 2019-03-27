@@ -52,3 +52,11 @@ $ git commit -m "First commit"
 $ git add second-commit.md
 $ git commit -m "Second commit"
 ```
+
+## Store locally WIP changes
+```sh
+$ git stash # store all changes in the current branch
+$ git stash list # show all stashes stored
+$ git stash pop # unwrap all stashes
+$ git stash apply # apply all stashes without removing stashes
+```
