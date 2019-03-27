@@ -29,3 +29,9 @@ $ vi ~/.gitconfig
   # pretty logs
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
 ```
+
+## Clean commits in a branch
+To clean up commits (squash, edit commit,  remove commit), use the start point (hash from the oldest commit) to edit newer commits.
+```sh
+$ git rebase -i 9a7f06b
+```
