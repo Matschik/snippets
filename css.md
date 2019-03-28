@@ -8,7 +8,8 @@ p {
 }
 ```
 
-## UL reset
+## Reset
+### UL
 ```css
 ul {
   list-style-type: none;
@@ -17,10 +18,17 @@ ul {
   margin-bottom: 0px;
 }
 ```
+### A
+```css
+a {
+  color: inherit;
+  text-decoration: none;
+}
+```
 
 ## Layout
 
-## Layout container
+### Layout container
 ```css
 .layout:after {
   clear: both;
@@ -29,7 +37,7 @@ ul {
 }
 ```
 
-## Layout columns
+### Layout columns
 ```css
 .layout-4c {
   float: left;
@@ -46,7 +54,7 @@ ul {
   width: 50%;
 }
 ```
-/* Dynamic columns */
+### Layout dynamic columns
 ```css
 /* one column */
 .layout-dc:first-child:nth-last-child(1) {
@@ -73,15 +81,6 @@ ul {
 .layout-dc:first-child:nth-last-child(4) ~ .layout-dc {
   float: left;
   width: 25%;
-}
-```
-
-
-/* Link reset */
-```css
-a {
-  color: inherit;
-  text-decoration: none;
 }
 ```
 
