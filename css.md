@@ -1,27 +1,36 @@
-/* Better font rendering */
+# CSS
+
+## Better font rendering
+```css
 p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+```
 
-/* UL reset */
+## UL reset
+```css
 ul {
   list-style-type: none;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+```
 
-/* LAYOUT */
+## Layout
 
-/* Layout container */
+## Layout container
+```css
 .layout:after {
   clear: both;
   content: "";
   display: table;
 }
+```
 
-/* Layout columns */
+## Layout columns
+```css
 .layout-4c {
   float: left;
   width: 24.25%;
@@ -36,8 +45,9 @@ ul {
   float: left;
   width: 50%;
 }
-
+```
 /* Dynamic columns */
+```css
 /* one column */
 .layout-dc:first-child:nth-last-child(1) {
   float: left;
@@ -64,14 +74,19 @@ ul {
   float: left;
   width: 25%;
 }
+```
+
 
 /* Link reset */
+```css
 a {
   color: inherit;
   text-decoration: none;
 }
+```
 
-/* Font face */
+## Font face
+```css
 @font-face {
   font-family: 'MyWebFont';
   src: url('webfont.eot'); /* IE9 Compat Modes */
@@ -81,13 +96,17 @@ a {
        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+```
 
-/* Icon via data-icon */
+## Icon via data-icon
+```css
 .icon:before {
   content: attr(data-icon);
 }
+```
 
-/* Delay style */
+## Delay style
+```css
 div{
     -webkit-transition: 0s background-color;
     -o-transition: 0s background-color;
@@ -100,3 +119,4 @@ div:hover{
          -o-transition-delay:1s;    
             transition-delay:1s;
 }
+```
