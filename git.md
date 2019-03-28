@@ -41,6 +41,6 @@ $ git commit -m "Second commit"
 ```sh
 $ git stash # store all changes in the current branch
 $ git stash list # show all stashes stored
-$ git stash pop # unwrap all stashes
+$ git stash pop # apply all stashes and remove stashes
 $ git stash apply # apply all stashes without removing stashes
 ```
