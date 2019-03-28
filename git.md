@@ -20,7 +20,7 @@ To clean up commits (squash, edit commit,  remove commit), use the start point (
 $ git rebase -i 9a7f06b
 ```
 
-## Add file modifications to last commit
+## Add change to last commit
 ```sh
 $ git add my-forgotten-file.md
 $ git commit --amend
