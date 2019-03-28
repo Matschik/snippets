@@ -99,7 +99,7 @@ a {
 
 ## Icon via data-icon
 ```css
-.icon:before {
+.icon::before {
   content: attr(data-icon);
 }
 ```
