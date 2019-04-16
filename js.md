@@ -1,8 +1,8 @@
 # JavaScript
 
-## <button> child events
-- <button> child elements events are totally ignored: it only triggers <button> event.
-- Triggering child event will not trigger parent <button> event.
+## `<button>` child events
+- `<button>` child elements events are totally ignored: it only triggers `<button>` event.
+- Triggering child event will not trigger parent `<button>` event.
 
 Example:
 ```html
