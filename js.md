@@ -6,7 +6,7 @@
 
 Example:
 ```html
-<button>Ouvrir mes notifications <div class="badge">4</div></button>
+<button>Open notification center <div class="badge">4</div></button>
 ```
 
 ```css
