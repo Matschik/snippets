@@ -24,11 +24,11 @@ button {
 ```
 
 ```js
-document.querySelector("button").onclick = () => {
+document.querySelector("button").onclick = function() {
   alert("Button clicked");
 };
 
-document.querySelector(".badge").onclick = function(event) {
+document.querySelector(".badge").onclick = function() {
   alert('Badge cliked');
 };
 ```
