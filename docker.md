@@ -1,7 +1,7 @@
 # Docker
 
-# Basic commands
-## General
+## Basic commands
+### General
 ```sh
 $ docker ps # Lists running containers
 $ docker ps -a # Lists all containers
@@ -13,7 +13,7 @@ $ docker images # Lists images
 $ docker rmi <image_id> # Removes an image
 ```
 
-## On project
+### On project
 - On project root
 ```sh
 $ docker build . -t myproject:1.0 # Build with Dockerfile to create a Docker image
@@ -24,6 +24,6 @@ $ docker build . -t myproject:1.0 # Build with Dockerfile to create a Docker ima
 $ docker run -it myproject:1.0 /bin/sh
 ```
 
-# Dockerfile
+## Dockerfile
 
-# Docker compose
+## Docker compose
