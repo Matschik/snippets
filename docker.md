@@ -3,8 +3,14 @@
 # Basic commands
 ## General
 ```sh
-$ docker ps # Show all running containers
-$ docker images # Show all local images
+$ docker ps # Lists running containers
+$ docker ps -a # Lists all containers
+$ docker rm <container_id> # Removes a container
+$ docker container prune # Removes all stopped container
+$ docker container prune --filter status=exited --filter "until=12h" # Remove stopped containers by filters
+
+$ docker images # Lists images
+$ docker rmi <image_id> # Removes an image
 ```
 
 ## On project
