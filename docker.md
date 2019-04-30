@@ -24,3 +24,6 @@ $ docker build . -t myproject:1.0 # Build with Dockerfile to create a Docker ima
 $ docker run -it myproject:1.0 /bin/sh
 ```
 
+# Dockerfile
+
+# Docker compose
