@@ -3,9 +3,6 @@
 ## Basic commands
 ### General
 ```sh
-# Lists running containers
-$ docker ps
-
 # Lists all containers
 $ docker ps -a
 
@@ -31,9 +28,9 @@ $ docker rmi <image_id>
 $ docker build . -t myproject:1.0 # Build via Dockerfile to create a Docker image
 ```
 
-- Access interactively to Docker container with image named "myproject" with tag 1.0 and run command "/bin/sh" to start a shell terminal session
+- Access interactively to Docker container and run command "/bin/sh" to start a shell terminal session
 ```sh
-$ docker run -it myproject:1.0 /bin/sh
+$ docker exec -it myproject:1.0 /bin/sh
 ```
 
 ## Dockerfile
