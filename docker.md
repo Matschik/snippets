@@ -15,9 +15,6 @@ $ docker container prune
 # Remove stopped containers by filters
 $ docker container prune --filter status=exited --filter "until=12h"
 
-# Lists images
-$ docker images
-
 # Removes an image
 $ docker rmi <image_id> 
 ```
